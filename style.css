@@ -95,3 +95,12 @@ border-radius: 6px;
 body {
     background-color: #1A1A1A;
 }
+
+.header-info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info {
+    max-width: 361px;
+}
