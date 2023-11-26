@@ -71,14 +71,31 @@
                             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                         </p>
                     </div>
-                    <div class="audio-block">
-                        <img src="img/man-avatar.png" alt="">
-                        <div class="audio-container">
-                            <img src="img/audio.png" alt="">
-                            <a href="#" class="play-button">
-                                <img src="img/icons/play.svg" alt="">
-                            </a>
-                        </div>
+                        <div class="audio-holder">
+                            <div class="audio-block">
+                            <img src="/img/man-avatar.png" alt="">
+                            <div class="audio-container">
+                                <div class="audio-detail">
+                                <div class="control">
+                                    <i class="fi-rr-play" id="playPause"></i>
+                                </div>
+                                <div id="wave"></div>
+                                </div>
+                            </div>
+                            </div>
+
+                                <div class="audio-author">
+                                    <div>
+                                    <h2 class="about-title">Testimonial</h2>
+                                    <span class="about-subtitle">Tom Hope</span>
+                                    </div>
+                    
+                                    <div class="time">
+                                    <span id="current">0:00</span> /
+                                    <span id="duration">0:00</span>
+                                    </div>
+                                </div>
+
                     </div>
                     <h2 class="about-title">
                         Testimonial
@@ -90,5 +107,8 @@
             </section>
         </div>
     </header>
+
+    <script src="media.js"> </script>
+    <script src="wavesurfer.js"> </script>
 </body>
 </html>
