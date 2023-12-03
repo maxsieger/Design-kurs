@@ -339,3 +339,21 @@
     color: #1a1a1a;
     padding-bottom: 40px;
 }
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #939495;
+    padding: 30px 0;
+  }
+    .left-block {
+        display: flex;
+        align-items: center;
+    }
+    .course-number {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        color: #A2A2A4;
+    }
