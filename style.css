@@ -327,3 +327,15 @@
 .img-card-4 {
     background-image: url("img/card-4.jpg");
 }
+
+.footer {
+    background-color: #f5f6f8;
+    padding: 60px 0;
+}
+
+.course-title-info {
+    font-weight: 600;
+    font-size: 70px;
+    color: #1a1a1a;
+    padding-bottom: 40px;
+}
