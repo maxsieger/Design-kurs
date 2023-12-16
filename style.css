@@ -486,5 +486,18 @@
                 display: none;
             }
 
+            .a-video {
+                padding: 10px;
+                border: yellow solid 4px;
+                border-radius: 10px;
+                text-decoration: none;
+                background-color: rgb(255, 230, 0);
+                color: white;
+            }
 
+
+            .main_1 {
+                background-color: #000000;
+                height: 1000px;
+            }
             
